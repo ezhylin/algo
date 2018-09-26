@@ -5,6 +5,6 @@ test('Palindrome is a function', () => {
 });
 
 test('Palindrome. Output string is similar to input.', () => {
-    expect(palindrome('ollo')).toBeTruthy();
-    expect(palindrome('olla')).toBeTruthy();
+    expect(palindrome('ollo')).toBe(true);
+    expect(palindrome('olla')).toBe(false);
 });
